@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 }
 
 @font-face {
@@ -155,15 +156,20 @@
 }
 
 .frame {
-    display: flex;
+
+    display: grid;
+    grid-template-columns: 665px 665px;
+    grid-template-rows: 378px;
+    gap: 50px;
+    /*display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 50px;
+    gap: 50px;*/
     margin: 140px 0px 140px 0px;
 }
 
 .frame h3 {
-    
+    width: 126px;
     font-family: 'Yellowtail';
     font-size: 36px;
     font-weight: 400;
@@ -181,26 +187,33 @@
     color: #FFF;
 }
 
+.frame__offer h3 {
+    color: #7EB693;
+}
+
 .frame__offer h2 {
     width: 264px;
+    color: #274C5B;
 }
 .frame__natural h2 {
     width: 219px;
 }
 
 .frame__natural {
-    max-width: 665px;
-    width: calc(665px - 25px);
+   /* max-width: 665px;
+    width: calc(665px - 25px);*/
     background: url(../images/background3.png) no-repeat;
-    padding: 105px 391px 105px 55px;
+    background-size: 665px 378px;
+    padding: 105px 0px 105px 65px;
     
 }
 
 .frame__offer {
-    max-width: 665px;
-    width: calc(665px - 25px);
+   /* max-width: 665px;
+    width: calc(665px - 25px);*/
     background: url(../images/background4.png) no-repeat;
-    padding: 105px 346px 105px 55px;
+    background-size: 665px 378px;
+    padding: 105px 0px 105px 55px;
 }
 
 .section__about {
