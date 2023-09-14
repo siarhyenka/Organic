@@ -567,3 +567,232 @@
 
 
 }
+
+@media (max-width: 425px) {
+    .nav__item:not(:last-child) {
+        margin-right: 27px;
+    }
+
+    .nav__item a {
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .section__content__header h1 {
+        font-size: 60px;
+    }
+
+    .frame {
+        grid-template-columns: 373px;
+        grid-template-rows: auto;
+    }
+
+    .frame__natural {
+        background-size: 373px;
+        padding: 31px 0px 8px 50px;
+    }
+
+    .frame h3 {
+        font-size: 31px;
+    }
+
+    .frame h2 {
+        font-size: 32px;
+    }
+
+    .frame__offer {
+        background-size: 373px;
+        padding: 26px 0px 14px 50px;
+    }
+
+    .about__img {
+        width: 373px;
+        margin: 0 auto;
+    }
+
+    .about__img img {
+        width: 371px;
+        height: 388px;
+    }
+
+    .about__content__items {
+        width: 373px;
+        margin: 0 auto;
+    }
+
+    .about__content__items h2, .product__header h2 {
+        font-size: 32px;
+    }
+
+    .about__content__item__img {
+        width: 80px;
+        height: 49px;
+    }
+
+    .about__content__item__img img {
+        width: 35px;
+        
+    }
+
+    .about__content__item img:last-child {
+        top: 7px;
+        left: 5px;
+    }
+
+    .catalog__items {
+        grid-template-columns: 371px;  
+        grid-template-rows: 541px;
+    }
+
+    .catalog__item__footer span {
+        line-height: 20.4px;
+        letter-spacing: -0.64px;
+    }
+
+    .review__content h2 {
+        font-size: 43px;
+    }
+
+    .statistics__item {
+        width: 250px;
+        height: 67px;
+    }
+
+    .statistics__item span:first-child {
+        line-height: 17.6px;
+    }
+
+    .statistics__item span:last-child {
+        line-height: 9.4px;  
+    }
+
+    .product__header {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        flex-direction: column;
+    }
+
+    .products__catalog {
+        grid-template-columns: 373px;
+        grid-template-rows: 521px; 
+        padding-bottom: 50px
+    }
+
+    .about__us_section {
+        padding: 40px 23px 40px 45px;
+    }
+
+    .about_us {
+        padding: 20px 18px 29px 23px;
+    }
+    .about_us h2 {
+        font-size: 39px;
+        line-height: 37.5px;
+    }
+
+    .container__categories {
+        height: 1275px;
+        grid-template-columns: 320px;
+    }
+
+    .juice {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .food {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .cookies {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .form {
+        flex-direction: column;
+        padding: 31px 0px 27px 20px;
+    }
+
+    .form h3 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .right__console {
+        width: 326px;
+        margin-left: 0px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .nav__item:not(:last-child) {
+        margin-right: 16px;
+    }
+
+    .section__content__header {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .section__content__header h1 {
+        line-height: 58px;
+    }
+
+    .frame {
+        grid-template-columns: 333px;
+        grid-template-rows: 191px 191px;
+        margin: 30px 0px 30px 0px;
+    }
+
+    .frame__natural,
+    .frame__offer {
+        background-size: 333px;
+        padding: 37px 0px 8px 39px;
+    }
+
+    .frame h3 {
+        font-size: 29px;
+        line-height: 40.8px;
+    }
+
+    .frame h2 {
+        line-height: 32px;  
+    }
+
+    .about__content__items {
+        width: 330px;
+    }
+
+    .about__content__item__img img {
+        width: 31px;
+    }
+
+    .about__content__item img:last-child {
+        top: 10px;
+        left: 4px;
+    }
+
+    .catalog__items {
+        grid-template-columns: 329px;
+        grid-template-rows: 495px;
+    }
+
+    .review__content__statistics {
+        gap: 0px;
+    }
+
+    .products__catalog {
+        grid-template-columns: 329px;
+        grid-template-rows: 495px;
+    }
+
+    .right__console {
+        width: 306px;
+    }
+
+    .right__console input {
+        padding: 12px 55px 13px 30px;
+    }
+}
